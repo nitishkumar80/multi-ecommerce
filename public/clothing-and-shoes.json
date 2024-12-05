@@ -1,0 +1,58 @@
+{
+    "title": "Clothing and Shoes",
+    "categories": {
+      "Clothes": [
+        {
+          "title": "Casual T-Shirt",
+          "image": "https://example.com/tshirt.jpg"
+        },
+        {
+          "title": "Denim Jeans",
+          "image": "https://example.com/jeans.jpg"
+        },
+        {
+          "title": "Casual T-Shirt",
+          "image": "https://example.com/tshirt.jpg"
+        },
+        {
+          "title": "Denim Jeans",
+          "image": "https://example.com/jeans.jpg"
+        },
+        {
+          "title": "Casual T-Shirt",
+          "image": "https://example.com/tshirt.jpg"
+        },
+        {
+          "title": "Denim Jeans",
+          "image": "https://example.com/jeans.jpg"
+        }
+      ],
+      "Shoes": [
+        {
+          "title": "Running Shoes",
+          "image": "https://example.com/running-shoes.jpg"
+        },
+        {
+          "title": "Formal Shoes",
+          "image": "https://example.com/formal-shoes.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "image": "https://example.com/running-shoes.jpg"
+        },
+        {
+          "title": "Formal Shoes",
+          "image": "https://example.com/formal-shoes.jpg"
+        },
+        {
+          "title": "Running Shoes",
+          "image": "https://example.com/running-shoes.jpg"
+        },
+        {
+          "title": "Formal Shoes",
+          "image": "https://example.com/formal-shoes.jpg"
+        }
+      ]
+    }
+  }
+  

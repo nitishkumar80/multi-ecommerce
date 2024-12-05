@@ -1,0 +1,26 @@
+{
+    "title": "Explore New",
+    "categories": {
+      "Men": [
+        {
+          "title": "Men's Jacket",
+          "image": "https://example.com/mens-jacket.jpg"
+        },
+        {
+          "title": "Men's Watch",
+          "image": "https://example.com/mens-watch.jpg"
+        }
+      ],
+      "Women": [
+        {
+          "title": "Women's Handbag",
+          "image": "https://example.com/womens-handbag.jpg"
+        },
+        {
+          "title": "Women's Earrings",
+          "image": "https://example.com/womens-earrings.jpg"
+        }
+      ]
+    }
+  }
+  
