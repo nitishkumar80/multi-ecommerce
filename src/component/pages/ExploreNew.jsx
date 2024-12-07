@@ -41,13 +41,16 @@ const ExploreNew = () => {
 
       {/* Display Items */}
       <div className="item-list">
-        {displayedItems.map((item, index) => (
-          <div key={index} className="item">
-            <img src={item.image} alt={item.title} className="item-image" />
-            <h3>{item.title}</h3>
-          </div>
-        ))}
-      </div>
+  {displayedItems.map((item, index) => (
+    <div key={index} className="item">
+      <img src={item.image} alt={item.title} className="item-image" />
+      <h3>{item.title}</h3>
+      <a href={item.link} target="_blank" rel="noopener noreferrer" className="item-link">
+        View Product
+      </a>
+    </div>
+  ))}
+</div>
     </div>
   );
 };

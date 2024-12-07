@@ -40,18 +40,3 @@
     border-radius: 5px;
   }
   
-
-  .item-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .item-link:hover {
-    background-color: #0056b3;
-  }
-  

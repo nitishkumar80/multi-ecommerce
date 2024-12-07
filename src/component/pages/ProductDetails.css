@@ -1,0 +1,65 @@
+/* ProductDetails.css */
+.variant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: center; /* Centers the items */
+  }
+  
+
+
+  .variant-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .variant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .variant-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h2{
+    font-size: 22px;
+  
+    text-align: center;
+  }
+  .variant-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .variant-item p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0 15px;
+  }
+  
+  .variant-item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .variant-item button:hover {
+    background-color: #0056b3;
+  }
+  

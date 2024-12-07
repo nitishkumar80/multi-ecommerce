@@ -1,26 +1,69 @@
 {
-    "title": "Explore New",
-    "categories": {
-      "Men": [
-        {
-          "title": "Men's Jacket",
-          "image": "https://example.com/mens-jacket.jpg"
-        },
-        {
-          "title": "Men's Watch",
-          "image": "https://example.com/mens-watch.jpg"
-        }
-      ],
-      "Women": [
-        {
-          "title": "Women's Handbag",
-          "image": "https://example.com/womens-handbag.jpg"
-        },
-        {
-          "title": "Women's Earrings",
-          "image": "https://example.com/womens-earrings.jpg"
-        }
-      ]
-    }
+  "title": "Explore New",
+  "categories": {
+    "Men": [
+      {
+        "title": "Boldfit Winter Jacket for Men",
+        "image": "https://m.media-amazon.com/images/I/61zkFbeXs7L._SX679_.jpg",
+        "link": "https://amzn.to/49rj6at"
+      },
+      {
+        "title": "OLEVS Men's Gold-Blue Watch",
+        "image": "https://m.media-amazon.com/images/I/712lphPVwfL._SX679_.jpg",
+        "link": "https://amzn.to/3Bp4UCj"
+      },
+      {
+        "title": "Boldfit Shoe Bag for Travel",
+        "image": "https://m.media-amazon.com/images/I/71UlEDZPiCL._SX679_.jpg",
+        "link": "https://amzn.to/4eZYhEx"
+      },
+      {
+        "title": "Boldfit Backpack Rain Cover",
+        "image": "https://m.media-amazon.com/images/I/31Zq9RynPzL._SX300_SY300_QL70_FMwebp_.jpg",
+        "link": "https://amzn.to/49nu0xY"
+      },
+      {
+        "title": "HOMEDRIP Mini Travel Bag",
+        "image": "https://m.media-amazon.com/images/I/617U2YqngDL._SY695_.jpg",
+        "link": "https://amzn.to/4givCvi"
+      },
+      {
+        "title": "Zollyss Travel Toothbrush Case",
+        "image": "https://m.media-amazon.com/images/I/6179vAUX3XL._SL1431_.jpg",
+        "link": "https://amzn.to/4fXbAqo"
+      }
+    ],
+    "Women": [
+      {
+        "title": "MOKOBARA Tote Bag for Women",
+        "image": "https://m.media-amazon.com/images/I/61aJhlrhCXL._SY695_.jpg",
+        "link": "https://amzn.to/4gF5XgL"
+      },
+      {
+        "title": "Garnier Super UV Sunscreen",
+        "image": "https://m.media-amazon.com/images/I/71azyrAHKyL._SL1500_.jpg",
+        "link": "https://amzn.to/4eZXKCx"
+      },
+      {
+        "title": "Fostelo Women's Handbag",
+        "image": "https://m.media-amazon.com/images/I/61Fa7wW9FvL._SY695_.jpg",
+        "link": "https://amzn.to/3ZgboeE"
+      },
+      {
+        "title": "Eva Roll-On Deodorant",
+        "image": "https://m.media-amazon.com/images/I/71Oto74F+iL._SX679_PIbundle-3,TopRight,0,0_AA679SH20_.jpg",
+        "link": "https://amzn.to/3VoJSdO"
+      },
+      {
+        "title": "Fossil Rose Gold Watch",
+        "image": "https://m.media-amazon.com/images/I/81AmHv7jKsL._SX679_.jpg",
+        "link": "https://amzn.to/3OG6vXo"
+      },
+      {
+        "title": "Fossil Gold-Green Analog Watch",
+        "image": "https://m.media-amazon.com/images/I/716-ek1BgOL._SX679_.jpg",
+        "link": "https://amzn.to/4iniZks"
+      }
+    ]
   }
-  
+}

@@ -1,0 +1,106 @@
+{
+    "title": "Gifts and Living",
+    "categories": {
+      "Gifts": [
+        {
+          "title": "Personalized Mug",
+          "image": "https://example.com/mug.jpg",
+          "link": "https://amzn.to/personalized-mug"
+        },
+        {
+          "title": "Gift Box Set",
+          "image": "https://example.com/gift-box.jpg",
+          "link": "https://amzn.to/gift-box"
+        },
+
+
+
+
+        {
+            "title": "Personalized Mug",
+            "image": "https://example.com/mug.jpg",
+            "link": "https://amzn.to/personalized-mug"
+          },
+          {
+            "title": "Gift Box Set",
+            "image": "https://example.com/gift-box.jpg",
+            "link": "https://amzn.to/gift-box"
+          },
+          {
+            "title": "Personalized Mug",
+            "image": "https://example.com/mug.jpg",
+            "link": "https://amzn.to/personalized-mug"
+          },
+          {
+            "title": "Gift Box Set",
+            "image": "https://example.com/gift-box.jpg",
+            "link": "https://amzn.to/gift-box"
+          }
+      ],
+      "HomeEssentials": [
+        {
+          "title": "Cozy Blanket",
+          "image": "https://example.com/blanket.jpg",
+          "link": "https://amzn.to/cozy-blanket"
+        },
+        {
+          "title": "Kitchen Organizer",
+          "image": "https://example.com/kitchen-organizer.jpg",
+          "link": "https://amzn.to/kitchen-organizer"
+        },
+        {
+            "title": "Cozy Blanket",
+            "image": "https://example.com/blanket.jpg",
+            "link": "https://amzn.to/cozy-blanket"
+          },
+          {
+            "title": "Kitchen Organizer",
+            "image": "https://example.com/kitchen-organizer.jpg",
+            "link": "https://amzn.to/kitchen-organizer"
+          },
+          {
+            "title": "Cozy Blanket",
+            "image": "https://example.com/blanket.jpg",
+            "link": "https://amzn.to/cozy-blanket"
+          },
+          {
+            "title": "Kitchen Organizer",
+            "image": "https://example.com/kitchen-organizer.jpg",
+            "link": "https://amzn.to/kitchen-organizer"
+          }
+      ],
+      "Decor": [
+        {
+          "title": "Wall Art",
+          "image": "https://example.com/wall-art.jpg",
+          "link": "https://amzn.to/wall-art"
+        },
+        {
+          "title": "Table Lamp",
+          "image": "https://example.com/table-lamp.jpg",
+          "link": "https://amzn.to/table-lamp"
+        },
+        {
+            "title": "Wall Art",
+            "image": "https://example.com/wall-art.jpg",
+            "link": "https://amzn.to/wall-art"
+          },
+          {
+            "title": "Table Lamp",
+            "image": "https://example.com/table-lamp.jpg",
+            "link": "https://amzn.to/table-lamp"
+          },
+          {
+            "title": "Wall Art",
+            "image": "https://example.com/wall-art.jpg",
+            "link": "https://amzn.to/wall-art"
+          },
+          {
+            "title": "Table Lamp",
+            "image": "https://example.com/table-lamp.jpg",
+            "link": "https://amzn.to/table-lamp"
+          }
+      ]
+    }
+  }
+  
