@@ -1,0 +1,115 @@
+{
+  "title": "Popular Products",
+  "products": [
+    {
+      "title": "iPhone 16 Pro 1TB 5G - Desert Titanium",
+      "link": "https://amzn.to/3Zfs71G",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg"
+    },
+    {
+      "title": "iPhone 16 128GB 5G - White",
+      "link": "https://amzn.to/3Vo03bi",
+      "image": "https://m.media-amazon.com/images/I/51HiZSmKclL._SL1500_.jpg"
+    },
+    {
+      "title": "Universal Travel Adapter - All-in-One Charger",
+      "link": "https://amzn.to/41iGepK",
+      "image": "https://m.media-amazon.com/images/I/61t7eIbAxwL._SL1200_.jpg"
+    },
+    {
+      "title": "OnePlus Nord CE4 - Dark Chrome, 8GB/128GB",
+      "link": "https://amzn.to/4ij97bt",
+      "image": "https://m.media-amazon.com/images/I/61tRqUl4hyL._SL1500_.jpg"
+    },
+    {
+      "title": "Realme Narzo N61 - Marble Black, 4GB/64GB",
+      "link": "https://amzn.to/3Zl2zR6",
+      "image": "https://m.media-amazon.com/images/I/710B0Zc8AYL._SL1500_.jpg"
+    },
+    {
+      "title": "Redmi A4 5G - Sparkle Purple, 4GB/64GB",
+      "link": "https://amzn.to/41k5aNu",
+      "image": "https://m.media-amazon.com/images/I/41AkJ19-1mL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "title": "ASUS Vivobook 15 Laptop - Core i5, 16GB/512GB",
+      "link": "https://amzn.to/4f2twig",
+      "image": "https://m.media-amazon.com/images/I/71dEitCVLxL._SL1500_.jpg"
+    },
+    {
+      "title": "Apple MacBook Air - M1 Chip, 8GB/256GB",
+      "link": "https://amzn.to/4f2yknI",
+      "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg"
+    },
+    {
+      "title": "MacBook Air 2022 - M2 Chip, 16GB/256GB",
+      "link": "https://amzn.to/3VrjTCy",
+      "image": "https://m.media-amazon.com/images/I/71r8h9mLzHL._SL1500_.jpg"
+    },
+    {
+      "title": "MacBook Pro 2024 - M4 Pro, 24GB/512GB",
+      "link": "https://amzn.to/3Bje5Er",
+      "image": "https://m.media-amazon.com/images/I/61v405rSEeL._SL1500_.jpg"
+    },
+    {
+      "title": "Portronics Power Plate Extension Board",
+      "link": "https://amzn.to/4gf2SEl",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Xiaomi Smart Watch - Fitness Tracker",
+      "link": "https://amzn.to/3ZptwCY",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Noise ColorFit Pro 4 Smart Watch",
+      "link": "https://amzn.to/3Daeg5o",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Sony WF-C500 Wireless Earbuds",
+      "link": "https://amzn.to/3VoT9CU",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Samsung Galaxy Buds 2 Pro",
+      "link": "https://amzn.to/4g1QhnG",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "JBL Tune 230NC Wireless Earbuds",
+      "link": "https://amzn.to/4fWgfJp",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "HP Pavilion Gaming Laptop",
+      "link": "https://amzn.to/3D4vxNG",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Logitech MX Master 3 Mouse",
+      "link": "https://amzn.to/3D3SmAX",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Corsair K95 RGB Keyboard",
+      "link": "https://amzn.to/4ijxDcu",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Dell XPS 13 Laptop - Touchscreen",
+      "link": "https://amzn.to/4eZ69G5",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Lenovo Legion 5 Gaming Laptop",
+      "link": "https://amzn.to/4fWgynx",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "title": "Acer Predator Helios Gaming Laptop",
+      "link": "https://amzn.to/4g0Sm38",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}

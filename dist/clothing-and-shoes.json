@@ -1,0 +1,57 @@
+{
+  "title": "Clothing and Shoes",
+  "categories": {
+    "Clothes": [
+      {
+        "title": "Casual T-Shirt",
+        "image": "https://m.media-amazon.com/images/I/612Rl6GKHoL._SX679_.jpg"
+      },
+      {
+        "title": "Denim Jeans",
+        "image": "https://m.media-amazon.com/images/I/71OBVZ-69WL._SY879_.jpg"
+      },
+      {
+        "title": "Graphic Tee",
+        "image": "https://m.media-amazon.com/images/I/61EmEP2muBL._SY879_.jpg"
+      },
+      {
+        "title": "Loose Fit Jeans",
+        "image": "https://m.media-amazon.com/images/I/61Do40y3vDL._AC_UL640_FMwebp_QL65_.jpg"
+      },
+      {
+        "title": "Printed T-Shirt",
+        "image": "https://m.media-amazon.com/images/I/71xamREF5TL._SY879_.jpg"
+      },
+      {
+        "title": "Slim Fit Jeans",
+        "image": "https://m.media-amazon.com/images/I/51x9zTP3ScL._SX679_.jpg"
+      }
+    ],
+    "Shoes": [
+      {
+        "title": "Running Shoes",
+        "image": "https://m.media-amazon.com/images/I/81Fl+2w97bL._SY695_.jpg"
+      },
+      {
+        "title": "Formal Shoes",
+        "image": "https://m.media-amazon.com/images/I/71NSr9nA+vL._SX695_.jpg"
+      },
+      {
+        "title": "Training Sneakers",
+        "image": "https://m.media-amazon.com/images/I/51461IZQQqL._SY695_.jpg"
+      },
+      {
+        "title": "Dress Shoes",
+        "image": "https://m.media-amazon.com/images/I/616NqdsFUcL._AC_UL640_FMwebp_QL65_.jpg"
+      },
+      {
+        "title": "Trail Running Shoes",
+        "image": "https://m.media-amazon.com/images/I/61bLe2eFyOL._SY695_.jpg"
+      },
+      {
+        "title": "Oxford Shoes",
+        "image": "https://m.media-amazon.com/images/I/710+f7XX2FL._SY695_.jpg"
+      }
+    ]
+  }
+}

@@ -63,3 +63,46 @@
     background-color: #0056b3;
   }
   
+
+
+  /* For Tablets and Larger Devices */
+@media (max-width: 1024px) {
+  .variant-item {
+    width: 45%; /* Adjust to take up less space, 2 items per row */
+  }
+}
+
+/* For Small Tablets and Large Phones */
+@media (max-width: 768px) {
+  .variant-item {
+    width: 48%; /* Take up more space, 2 items per row */
+  }
+
+  h2 {
+    font-size: 20px; /* Adjust title font size */
+  }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .variant-item {
+    width: 100%; /* One item per row */
+    margin-bottom: 20px; /* Space between items */
+  }
+
+  h2 {
+    font-size: 18px; /* Adjust title font size for mobile */
+  }
+
+  .variant-item h3 {
+    font-size: 1.1rem; /* Adjust product title font size */
+  }
+
+  .variant-item p {
+    font-size: 0.9rem; /* Reduce price text size */
+  }
+
+  .variant-item button {
+    width: 100%; /* Make button take full width */
+  }
+}

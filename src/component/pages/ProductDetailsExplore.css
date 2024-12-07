@@ -1,0 +1,71 @@
+/* General styling */
+.variant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.variant-item {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.variant-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.variant-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.variant-item p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.variant-item button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.variant-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .variant-item {
+    width: 45%; /* Make the items take up 45% width on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .variant-item {
+    width: 100%; /* Make the items take up full width on small screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .variant-list {
+    justify-content: center; /* Center align the product items on larger screens */
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState, Suspense, lazy } from "react";
-import { FaHome, FaBoxOpen, FaTshirt, FaGift, FaLightbulb } from "react-icons/fa";
+import { FaHome, FaBoxOpen, FaTshirt, FaGift, FaLightbulb, FaBars } from "react-icons/fa";
 import "./SideNavigation.css";
+import LoginSignupModal from "./LoginSignupModal"; // Import the modal component
 
 // Lazy import pages
 const PopularProducts = lazy(() => import("./pages/PopularProducts"));
@@ -11,6 +12,8 @@ const Inspiration = lazy(() => import("./pages/Inspiration"));
 
 const SideNavigation = () => {
   const [activePage, setActivePage] = useState("Explore New");
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control the modal visibility
+  const [isSideNavOpen, setIsSideNavOpen] = useState(true); // State to control the side nav visibility
 
   // Map activePage to the corresponding component
   const renderPage = () => {
@@ -39,10 +42,15 @@ const SideNavigation = () => {
     "Inspiration": <FaLightbulb />,
   };
 
+  // Toggle Side Nav visibility
+  const toggleSideNav = () => {
+    setIsSideNavOpen(!isSideNavOpen);
+  };
+
   return (
     <div className="app-container">
       {/* Side Navigation */}
-      <div className="side-nav">
+      <div className={`side-nav ${isSideNavOpen ? "" : "side-nav-closed"}`}>
         <div className="brand">
           <h1>BuyMore</h1>
         </div>
@@ -59,6 +67,16 @@ const SideNavigation = () => {
             </li>
           ))}
         </ul>
+        <ul>
+          <li>
+            <button className="login-btn" onClick={() => setIsModalOpen(true)}>Login / Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      {/* Mobile toggle button */}
+      <div className="side-nav-toggle" onClick={toggleSideNav}>
+        <FaBars />
       </div>
 
       {/* Content Area */}
@@ -67,6 +85,9 @@ const SideNavigation = () => {
           {renderPage()}
         </Suspense>
       </div>
+
+      {/* Login/Signup Modal */}
+      <LoginSignupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 };

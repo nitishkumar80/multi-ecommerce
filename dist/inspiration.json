@@ -1,0 +1,102 @@
+{
+    "title": "Inspiration",
+    "categories": {
+      "Ideas": [
+        {
+          "title": "DIY Home Decor",
+          "image": "https://m.media-amazon.com/images/I/41wRT8U3ZxL._SY300_SX300_QL70_FMwebp_.jpg",
+          "description": "Litleo Plastic Artificial Plants Mini, Eucalyptus Potted Faux Decorative Grass Plant For Home Decor, Indoor, Office, Desk, Shelf, Table Decoration (Pack Of 4), Green"
+        },
+        {
+          "title": "Creative Writing",
+          "image": "https://m.media-amazon.com/images/I/41q7Dx1V9GL._SY445_SX342_.jpg",
+          "description": "Tips and prompts to boost your writing creativity."
+        },
+        {
+            "title": "DIY Home Decor",
+            "image": "https://m.media-amazon.com/images/I/51hmdbdUGaL._SX300_SY300_QL70_FMwebp_.jpg",
+            "description": "Pop The Party 10 Pcs Christmas Red Berries Stems,Artificial Christmas Picks for Christmas Tree Decoration Hanging Ornaments, DIY Xmas Wreath, Crafts, Holiday and Home Decor"
+          },
+          {
+            "title": "Creative Writing",
+            "image": "https://example.com/creative-writing.jpg",
+            "description": "Tips and prompts to boost your writing creativity."
+          },
+          {
+            "title": "DIY Home Decor",
+            "image": "https://example.com/diy-home-decor.jpg",
+            "description": "Learn how to make your own home decor items."
+          },
+          {
+            "title": "Creative Writing",
+            "image": "https://example.com/creative-writing.jpg",
+            "description": "Tips and prompts to boost your writing creativity."
+          }
+      ],
+      "Tips": [
+        {
+          "title": "Time Management",
+          "image": "https://example.com/time-management.jpg",
+          "description": "Maximize productivity with effective time management."
+        },
+        {
+          "title": "Healthy Living",
+          "image": "https://example.com/healthy-living.jpg",
+          "description": "Incorporate healthy habits into your daily routine."
+        },
+        {
+            "title": "Time Management",
+            "image": "https://example.com/time-management.jpg",
+            "description": "Maximize productivity with effective time management."
+          },
+          {
+            "title": "Healthy Living",
+            "image": "https://example.com/healthy-living.jpg",
+            "description": "Incorporate healthy habits into your daily routine."
+          },
+          {
+            "title": "Time Management",
+            "image": "https://example.com/time-management.jpg",
+            "description": "Maximize productivity with effective time management."
+          },
+          {
+            "title": "Healthy Living",
+            "image": "https://example.com/healthy-living.jpg",
+            "description": "Incorporate healthy habits into your daily routine."
+          }
+      ],
+      "Trends": [
+        {
+          "title": "Sustainable Fashion",
+          "image": "https://example.com/sustainable-fashion.jpg",
+          "description": "Explore the latest in eco-friendly clothing trends."
+        },
+        {
+          "title": "Tech Gadgets",
+          "image": "https://example.com/tech-gadgets.jpg",
+          "description": "Stay ahead with trending tech gadgets and tools."
+        },
+        {
+            "title": "Sustainable Fashion",
+            "image": "https://example.com/sustainable-fashion.jpg",
+            "description": "Explore the latest in eco-friendly clothing trends."
+          },
+          {
+            "title": "Tech Gadgets",
+            "image": "https://example.com/tech-gadgets.jpg",
+            "description": "Stay ahead with trending tech gadgets and tools."
+          },
+          {
+            "title": "Sustainable Fashion",
+            "image": "https://example.com/sustainable-fashion.jpg",
+            "description": "Explore the latest in eco-friendly clothing trends."
+          },
+          {
+            "title": "Tech Gadgets",
+            "image": "https://example.com/tech-gadgets.jpg",
+            "description": "Stay ahead with trending tech gadgets and tools."
+          }
+      ]
+    }
+  }
+  

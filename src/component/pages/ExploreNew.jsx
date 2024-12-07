@@ -1,56 +1,67 @@
-import React, { useState, useEffect } from "react";
-import "./ExploreNew.css";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./PopularProduct.css";
 
 const ExploreNew = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
-  const [data, setData] = useState({ Men: [], Women: [] });
+  const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [activeTab, setActiveTab] = useState("All");
+  const navigate = useNavigate();
 
   useEffect(() => {
-    // Fetch data from public folder
     fetch("/explore-new.json")
       .then((response) => response.json())
-      .then((json) => {
-        setData(json.categories);
+      .then((data) => {
+        setProducts(data.products);
+        setFilteredProducts(data.products);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
-  // Combine all items if "All" is selected
-  const displayedItems =
-    activeCategory === "All"
-      ? [...data.Men, ...data.Women]
-      : data[activeCategory] || [];
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+    if (tab === "All") {
+      setFilteredProducts(products);
+    } else if (tab === "Men") {
+      setFilteredProducts(products.filter(product => product.category === "Men"));
+    } else if (tab === "Women") {
+      setFilteredProducts(products.filter(product => product.category === "Women"));
+    }
+  };
+
+  const handleViewProduct = (productId) => {
+    navigate(`/product-explore/${productId}`);
+  };
 
   return (
     <div>
-      <h2>Explore New</h2>
-      <p>Discover the latest and trending items.</p>
+      <h2>Popular Products</h2>
 
-      {/* Sub-navigation */}
-      <div className="sub-nav">
-        {["All", "Men", "Women"].map((category) => (
+      <div className="tabs">
+        {["All", "Men", "Women"].map((tab) => (
           <button
-            key={category}
-            className={activeCategory === category ? "active" : ""}
-            onClick={() => setActiveCategory(category)}
+            key={tab}
+            className={`tab-button ${activeTab === tab ? "active" : ""}`}
+            onClick={() => handleTabClick(tab)}
           >
-            {category}
+            {tab}
           </button>
         ))}
       </div>
 
-      {/* Display Items */}
-      <div className="item-list">
-  {displayedItems.map((item, index) => (
-    <div key={index} className="item">
-      <img src={item.image} alt={item.title} className="item-image" />
-      <h3>{item.title}</h3>
-      <a href={item.link} target="_blank" rel="noopener noreferrer" className="item-link">
-        View Product
-      </a>
-    </div>
-  ))}
-</div>
+      <div className="product-list">
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product, index) => (
+            <div key={index} className="product-item">
+              <img src={product.image} alt={product.title} />
+              <h3>{product.title}</h3>
+              <button onClick={() => handleViewProduct(index)}>View Product</button>
+            </div>
+          ))
+        ) : (
+          <p>Loading products...</p>
+        )}
+      </div>
     </div>
   );
 };

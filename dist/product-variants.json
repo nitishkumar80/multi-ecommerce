@@ -1,0 +1,258 @@
+{
+    "products": {
+      "0": [
+        {
+          "title": "iPhone 16 Pro 1TB - Desert Titanium",
+          "price": "$1,699",
+          "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg"
+        },
+        {
+          "title": "iPhone 16 Pro 512GB - Desert Titanium",
+          "price": "$1,499",
+          "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg"
+        }
+        
+      ],
+      "1": [
+        {
+          "title": "iPhone 16 - 128GB - White",
+          "price": "$999",
+          "image": "https://m.media-amazon.com/images/I/51HiZSmKclL._SL1500_.jpg"
+        },
+        {
+          "title": "iPhone 16 - 256GB - White",
+          "price": "$1,099",
+          "image": "https://m.media-amazon.com/images/I/51HiZSmKclL._SL1500_.jpg"
+        }
+      ],
+      "2": [
+        {
+          "title": "Universal Travel Adapter - Black",
+          "price": "$25",
+          "image": "https://m.media-amazon.com/images/I/61t7eIbAxwL._SL1200_.jpg"
+        },
+        {
+          "title": "Universal Travel Adapter - White",
+          "price": "$28",
+          "image": "https://m.media-amazon.com/images/I/61t7eIbAxwL._SL1200_.jpg"
+        }
+      ],
+      "3": [
+        {
+          "title": "OnePlus Nord CE4 - 8GB/128GB - Dark Chrome",
+          "price": "$349",
+          "image": "https://m.media-amazon.com/images/I/61tRqUl4hyL._SL1500_.jpg"
+        },
+        {
+          "title": "OnePlus Nord CE4 - 12GB/256GB - Dark Chrome",
+          "price": "$429",
+          "image": "https://m.media-amazon.com/images/I/61tRqUl4hyL._SL1500_.jpg"
+        }
+      ],
+      "4": [
+        {
+          "title": "Realme Narzo N61 - 4GB/64GB - Marble Black",
+          "price": "$159",
+          "image": "https://m.media-amazon.com/images/I/710B0Zc8AYL._SL1500_.jpg"
+        },
+        {
+          "title": "Realme Narzo N61 - 6GB/128GB - Marble Black",
+          "price": "$199",
+          "image": "https://m.media-amazon.com/images/I/710B0Zc8AYL._SL1500_.jpg"
+        }
+      ],
+      "5": [
+        {
+          "title": "Redmi A4 5G - 4GB/64GB - Sparkle Purple",
+          "price": "$149",
+          "image": "https://m.media-amazon.com/images/I/41AkJ19-1mL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+          "title": "Redmi A4 5G - 6GB/128GB - Sparkle Purple",
+          "price": "$189",
+          "image": "https://m.media-amazon.com/images/I/41AkJ19-1mL._SX300_SY300_QL70_FMwebp_.jpg"
+        }
+      ],
+      "6": [
+        {
+          "title": "ASUS Vivobook 15 - Core i5/16GB/512GB",
+          "price": "$599",
+          "image": "https://m.media-amazon.com/images/I/71dEitCVLxL._SL1500_.jpg"
+        },
+        {
+          "title": "ASUS Vivobook 15 - Core i7/16GB/1TB",
+          "price": "$799",
+          "image": "https://m.media-amazon.com/images/I/71dEitCVLxL._SL1500_.jpg"
+        }
+      ],
+      "7": [
+        {
+          "title": "Apple MacBook Air - M1 Chip - 8GB/256GB",
+          "price": "$899",
+          "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg"
+        },
+        {
+          "title": "Apple MacBook Air - M1 Chip - 16GB/512GB",
+          "price": "$1,099",
+          "image": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg"
+        }
+      ],
+      "8": [
+        {
+          "title": "MacBook Air 2022 - M2 Chip - 8GB/256GB",
+          "price": "$1,199",
+          "image": "https://m.media-amazon.com/images/I/71r8h9mLzHL._SL1500_.jpg"
+        },
+        {
+          "title": "MacBook Air 2022 - M2 Chip - 16GB/512GB",
+          "price": "$1,399",
+          "image": "https://m.media-amazon.com/images/I/71r8h9mLzHL._SL1500_.jpg"
+        }
+      ],
+      "9": [
+        {
+          "title": "MacBook Pro 2024 - M4 Pro - 16GB/512GB",
+          "price": "$1,999",
+          "image": "https://m.media-amazon.com/images/I/61v405rSEeL._SL1500_.jpg"
+        },
+        {
+          "title": "MacBook Pro 2024 - M4 Pro - 32GB/1TB",
+          "price": "$2,499",
+          "image": "https://m.media-amazon.com/images/I/61v405rSEeL._SL1500_.jpg"
+        }
+      ],
+      "10": [
+        {
+          "title": "Portronics Power Plate Extension Board - 3 Sockets",
+          "price": "$15",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Portronics Power Plate Extension Board - 4 Sockets",
+          "price": "$20",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "11": [
+        {
+          "title": "Xiaomi Smart Watch - Black",
+          "price": "$99",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Xiaomi Smart Watch - Silver",
+          "price": "$119",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "12": [
+        {
+          "title": "Noise ColorFit Pro 4 - Fitness Tracker",
+          "price": "$49",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Noise ColorFit Pro 4 - Advanced Tracker",
+          "price": "$69",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "13": [
+        {
+          "title": "Sony WF-C500 Wireless Earbuds - Black",
+          "price": "$79",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Sony WF-C500 Wireless Earbuds - White",
+          "price": "$89",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "14": [
+        {
+          "title": "Samsung Galaxy Buds 2 Pro - Black",
+          "price": "$149",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Samsung Galaxy Buds 2 Pro - White",
+          "price": "$159",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "15": [
+        {
+          "title": "JBL Tune 230NC Wireless Earbuds - Black",
+          "price": "$59",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "JBL Tune 230NC Wireless Earbuds - Blue",
+          "price": "$69",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "16": [
+        {
+          "title": "HP Pavilion Gaming Laptop - Core i5",
+          "price": "$699",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "HP Pavilion Gaming Laptop - Core i7",
+          "price": "$899",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "17": [
+        {
+          "title": "Logitech MX Master 3 Mouse - Black",
+          "price": "$99",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Logitech MX Master 3 Mouse - Graphite",
+          "price": "$109",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "18": [
+        {
+          "title": "Corsair K95 RGB Keyboard - Black",
+          "price": "$149",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Corsair K95 RGB Keyboard - White",
+          "price": "$159",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "19": [
+        {
+          "title": "Dell XPS 13 Laptop - 8GB/256GB",
+          "price": "$999",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Dell XPS 13 Laptop - 16GB/512GB",
+          "price": "$1,299",
+          "image": "https://via.placeholder.com/150"
+        }
+      ],
+      "20": [
+        {
+          "title": "Lenovo Legion 5 Gaming Laptop - Ryzen 5",
+          "price": "$899",
+          "image": "https://via.placeholder.com/150"
+        },
+        {
+          "title": "Lenovo Legion 5 Gaming Laptop - Ryzen 7",
+          "price": "$1,199",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    }
+  }
+  
