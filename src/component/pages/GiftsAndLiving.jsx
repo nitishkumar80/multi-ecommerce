@@ -1,55 +1,65 @@
-import React, { useState, useEffect } from "react";
-import "./GiftsAndLiving.css";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./PopularProduct.css";
 
 const GiftsAndLiving = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
-  const [data, setData] = useState({ Gifts: [], HomeEssentials: [], Decor: [] });
+  const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [activeTab, setActiveTab] = useState("All");
+  const navigate = useNavigate();
 
   useEffect(() => {
-    // Fetch data from public folder
     fetch("/gifts-and-living.json")
       .then((response) => response.json())
-      .then((json) => {
-        setData(json.categories);
+      .then((data) => {
+        setProducts(data.products);
+        setFilteredProducts(data.products);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
-  // Combine all items if "All" is selected
-  const displayedItems =
-    activeCategory === "All"
-      ? [...data.Gifts, ...data.HomeEssentials, ...data.Decor]
-      : data[activeCategory] || [];
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+    if (tab === "All") {
+      setFilteredProducts(products);
+    } else if (tab === "Gifts") {
+      setFilteredProducts(products.filter(product => product.category === "Gifts"));
+    } else if (tab === "Living") {
+      setFilteredProducts(products.filter(product => product.category === "Living"));
+    }
+  };
+
+  const handleViewProduct = (productId) => {
+    // Pass the productId to the details page
+    navigate(`/product-gift/${productId}`);
+  };
 
   return (
     <div>
-      <h2>Gifts and Living</h2>
-      <p>Find the perfect gifts and home living essentials to brighten someone's day or your space!</p>
-
-      {/* Sub-navigation */}
-      <div className="sub-nav">
-        {["All", "Gifts", "HomeEssentials", "Decor"].map((category) => (
+      <div className="tabs">
+        {["All", "Gifts", "Living"].map((tab) => (
           <button
-            key={category}
-            className={activeCategory === category ? "active" : ""}
-            onClick={() => setActiveCategory(category)}
+            key={tab}
+            className={`tab-button ${activeTab === tab ? "active" : ""}`}
+            onClick={() => handleTabClick(tab)}
           >
-            {category.replace(/([A-Z])/g, " $1").trim()}
+            {tab}
           </button>
         ))}
       </div>
 
-      {/* Display Items */}
-      <div className="item-list">
-        {displayedItems.map((item, index) => (
-          <div key={index} className="item">
-            <img src={item.image} alt={item.title} className="item-image" />
-            <h3>{item.title}</h3>
-            <a href={item.link} target="_blank" rel="noopener noreferrer" className="item-link">
-              View Product
-            </a>
-          </div>
-        ))}
+      <div className="product-list">
+        {filteredProducts.length > 0 ? (
+          filteredProducts.map((product, index) => (
+            <div key={index} className="product-item">
+              <img src={product.image} alt={product.title} />
+              <h3>{product.title}</h3>
+              <button onClick={() => handleViewProduct(index)}>View Product</button>
+            </div>
+          ))
+        ) : (
+          <p>Loading products...</p>
+        )}
       </div>
     </div>
   );

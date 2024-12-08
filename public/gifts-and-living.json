@@ -1,106 +1,41 @@
 {
-    "title": "Gifts and Living",
-    "categories": {
-      "Gifts": [
-        {
-          "title": "Personalized Mug",
-          "image": "https://example.com/mug.jpg",
-          "link": "https://amzn.to/personalized-mug"
-        },
-        {
-          "title": "Gift Box Set",
-          "image": "https://example.com/gift-box.jpg",
-          "link": "https://amzn.to/gift-box"
-        },
-
-
-
-
-        {
-            "title": "Personalized Mug",
-            "image": "https://example.com/mug.jpg",
-            "link": "https://amzn.to/personalized-mug"
-          },
-          {
-            "title": "Gift Box Set",
-            "image": "https://example.com/gift-box.jpg",
-            "link": "https://amzn.to/gift-box"
-          },
-          {
-            "title": "Personalized Mug",
-            "image": "https://example.com/mug.jpg",
-            "link": "https://amzn.to/personalized-mug"
-          },
-          {
-            "title": "Gift Box Set",
-            "image": "https://example.com/gift-box.jpg",
-            "link": "https://amzn.to/gift-box"
-          }
-      ],
-      "HomeEssentials": [
-        {
-          "title": "Cozy Blanket",
-          "image": "https://example.com/blanket.jpg",
-          "link": "https://amzn.to/cozy-blanket"
-        },
-        {
-          "title": "Kitchen Organizer",
-          "image": "https://example.com/kitchen-organizer.jpg",
-          "link": "https://amzn.to/kitchen-organizer"
-        },
-        {
-            "title": "Cozy Blanket",
-            "image": "https://example.com/blanket.jpg",
-            "link": "https://amzn.to/cozy-blanket"
-          },
-          {
-            "title": "Kitchen Organizer",
-            "image": "https://example.com/kitchen-organizer.jpg",
-            "link": "https://amzn.to/kitchen-organizer"
-          },
-          {
-            "title": "Cozy Blanket",
-            "image": "https://example.com/blanket.jpg",
-            "link": "https://amzn.to/cozy-blanket"
-          },
-          {
-            "title": "Kitchen Organizer",
-            "image": "https://example.com/kitchen-organizer.jpg",
-            "link": "https://amzn.to/kitchen-organizer"
-          }
-      ],
-      "Decor": [
-        {
-          "title": "Wall Art",
-          "image": "https://example.com/wall-art.jpg",
-          "link": "https://amzn.to/wall-art"
-        },
-        {
-          "title": "Table Lamp",
-          "image": "https://example.com/table-lamp.jpg",
-          "link": "https://amzn.to/table-lamp"
-        },
-        {
-            "title": "Wall Art",
-            "image": "https://example.com/wall-art.jpg",
-            "link": "https://amzn.to/wall-art"
-          },
-          {
-            "title": "Table Lamp",
-            "image": "https://example.com/table-lamp.jpg",
-            "link": "https://amzn.to/table-lamp"
-          },
-          {
-            "title": "Wall Art",
-            "image": "https://example.com/wall-art.jpg",
-            "link": "https://amzn.to/wall-art"
-          },
-          {
-            "title": "Table Lamp",
-            "image": "https://example.com/table-lamp.jpg",
-            "link": "https://amzn.to/table-lamp"
-          }
-      ]
+  "title": "Explore New Living & Gift Products",
+  "products": [
+    {
+      "title": "Personalized Mug",
+      "category": "Gifts",
+      "link": "https://amzn.to/personalized-mug",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSfrj4DCIEySIyxRmfNC-__PpfckiQHhyHhAMAq0qu8XVpZEQpMQmI2U6bfRA6AOQdIzj-8RGeF3BgrDBMOVsTPg3xU5-5uzNoMNiH8ufzjmPFwcgkqICLddbghWhZ-mOXtQ87i4g&usqp=CAc"
+    },
+    {
+      "title": "Gift Box Set",
+      "category": "Gifts",
+      "link": "https://amzn.to/gift-box",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRDxhk88ZnHgcPwuS4_WPGKjthOEZaHurdVnuNsSo94wmzrf6aF-dAEfSPPyFq3upqpWwVxa9zFzb0qrT_Mi_69xt9xf43Zm8rxGAgpPM6_Z76nA5hmkE0nJA"
+    },
+    {
+      "title": "Customized Photo Frame",
+      "category": "Gifts",
+      "link": "https://amzn.to/photo-frame",
+      "image": "https://homafy.com/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-19-at-5.50.52-PM_11zon.jpeg"
+    },
+    {
+      "title": "Cozy Blanket",
+      "category": "Living",
+      "link": "https://amzn.to/cozy-blanket",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtThSkV-UORo9b_rbdGhz2iZtcz1feubitMg&s"
+    },
+    {
+      "title": "Kitchen Organizer",
+      "category": "Living",
+      "link": "https://amzn.to/kitchen-organizer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGbmGehuAtmwV3sbxlRve6-4ov_mZq-wjEg&s"
+    },
+    {
+      "title": "Eco-friendly Bamboo Utensils",
+      "category": "Living",
+      "link": "https://amzn.to/bamboo-utensils",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTP5gBcF2G5bZKqImHwvyIfdeMiv8I7-wuWQ&s"
     }
-  }
-  
+  ]
+}

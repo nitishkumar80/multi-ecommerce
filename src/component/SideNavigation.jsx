@@ -68,9 +68,9 @@ const SideNavigation = () => {
           ))}
         </ul>
         <ul>
-          <li>
+        
             <button className="login-btn" onClick={() => setIsModalOpen(true)}>Login / Sign Up</button>
-          </li>
+      
         </ul>
       </div>
 

@@ -35,7 +35,7 @@ const ExploreNew = () => {
 
   return (
     <div>
-      <h2>Popular Products</h2>
+   
 
       <div className="tabs">
         {["All", "Men", "Women"].map((tab) => (
