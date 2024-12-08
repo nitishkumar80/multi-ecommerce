@@ -1,0 +1,130 @@
+/* General Reset */
+body, html, div, p, h3, a, img, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .product-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  /* Variant List Container */
+  .variant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Variant Item Styling */
+  .variant-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .variant-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .variant-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .variant-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .variant-item a {
+    text-decoration: none;
+  }
+  
+  .variant-item button {
+    margin: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .variant-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .variant-list {
+      gap: 15px;
+    }
+  
+    .variant-item {
+      width: 240px;
+    }
+  
+    .variant-item img {
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .variant-list {
+      gap: 10px;
+    }
+  
+    .variant-item {
+      width: 220px;
+    }
+  
+    .variant-item img {
+      height: 160px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .variant-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .variant-item {
+      width: 90%;
+      margin-bottom: 15px;
+    }
+  
+    .variant-item img {
+      height: 140px;
+    }
+  
+    .variant-item h3 {
+      font-size: 16px;
+    }
+  
+    .variant-item button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
